@@ -64,7 +64,6 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'embed_video',
-    'django-ckeditor',
 ]
 
 

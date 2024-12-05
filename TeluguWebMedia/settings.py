@@ -71,7 +71,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',:
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -106,10 +106,10 @@ WSGI_APPLICATION = 'TeluguWebMedia.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'python',
+        'NAME': 'project',
         'USER':'admin',
-        'PASSWORD':'Raju12345',
-        'HOST':'database-1.c9qoock04u5g.us-east-1.rds.amazonaws.com',
+        'PASSWORD':'srilatha1234',
+        'HOST':'database-2.c1gii4ku2u2j.us-east-1.rds.amazonaws.com',
         'PORT':'3306',
         'OPTIONS': {
             'init_command': 'SET sql_mode="STRICT_TRANS_TABLES";',
